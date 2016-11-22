@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>project1</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Project1</title>
+  <link rel ="stylesheet" type="text/css" href ="stylesheet.css">
+  </head>
+<body>
+  <div class="title">
+    <h1>Important Concepts</h1>
+  </div>
+  <div class="chapter">
+  <div class="lesson">
+    <h2>Lesson 1: The Basics of Web and HTML</h2>
+  </div>
+    <div class="web">
+      <img class="web-image" src="http://i.imgur.com/MyDynn2.png" alt="screenshot of web">
+  </div>
+  <div class="concept">
+      <h3>How the Web Works</h3>
+        <p>The internet is the largest computer network that uses <em>http</em> to communicate between the <em>server</em> and the <em>browser</em> on your computer. 
+        The <em>server</em> is a computer that hosts files that makes up the web. 
+        The <em>browser</em> reads, interprets, and displays the information on your computer screen. <a href="https://www.udacity.com/course/viewer#!/c-nd00/l-3873828673/e-483294854/m-48480496">This video</a> explains this process.</p>
+  </div>
+  <div class="concept">
+    <h3>HTML</h3>
+      <p>HTML stands for <em>hypertext marklup language</em>. HTML documents form the majority of web content. HTML documents contains <em>text content</em> which describes what you see and <em>markup</em> which describes what it looks like.
+      <a href="https://www.udacity.com/course/viewer/#!/c-ud000/l-4185478836/m-48724340">This video</a> details this process. </p>
+  </div>
+  <div class="concept">
+   <h3>Tags and Elements</h3>
+      <p>HTML documents are made of HTML <strong>elements</strong>.
+      <strong>Elements</strong> are comprised of <strong>tags</strong> which perform various functions. 
+      An example of a <strong>tag</strong> would be to italicize a font, the italic tag would require an open <strong>tag</strong> and a close <strong>tag</strong> with content inbetween.
+      This open <strong>tag</strong> , context, and close <strong>tag</strong> would be called an <strong>element</strong> in the HTML document.
+      <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48723444">This video</a>
+      demonstrates this.  </p>
+  </div>
+  <div class="concept">
+    <h3>Why Computers are Stupid</h3>
+      <p>Computers are stupid because they interpret instructions literally. A small mistake by the programmer can cause a huge problem in a program.</p>
+  </div>
+  <div class="concept">
+    <h3>Inline VS Block Elements</h3>
+      <p>The two types of elements in HTML are either <strong>inline</strong> or <strong>block</strong>.
+      Block elements form an invisible box around the content inside of them.</p>
+  </div>
+  <div class="concept">
+    <h3>Avoiding Repetition</h3>
+    <p>When writing HTML it is important to avoid repetition because repetition can lead to more errors in your code, including syntatic errors so it is important to be as consise as possible. 
+      By goruping your classes together you can easily change the styling of a class using CSS (described below) as a whole rather than indiviual div styling to avoid any copy and paste mistakes. 
+      To develop and maintain your code most efficiently it is important to create larger classes so you minimize any errors that could occur using repetition.
+      Repetition = bad.
+    </p>
+    </div>
+  </div>
+  <div class="chapter">
+  <div class="lesson">
+    <h2>Lesson 2: Creating a Structured Document with HTML </h2>
+  </div>
+  <div class="web">
+    <img class="web-image" src="http://i.imgur.com/dDPgFfW.gif" alt="image of dom">
+  </div>
+  <div class="concept">
+    <h3>Tree-Like Structure</h3>
+      <p> HTML <strong>elements</strong> have other <strong>elements</strong> inside them. 
+      One <strong>element</strong> can have <strong>elements</strong> containing other <strong>elements</strong>. 
+      They are drawn out and displayed in a series of connected and nested boxes that portray a <em>tree-like structure</em>.</p>
+  </div>
+  <div class="concept">
+    <h3>Indented HTML & Boxes</h3>
+      <p>When you read the text for HTML you will see indentations at different points. 
+      The further indented an <strong>element</strong> is the more nested its box is.</p>
+  </div>
+  <div class="concept">
+    <h3>Text Editors</h3>
+      <p>Text editors are used to write HTML and they can help with shortcuts.
+       An example can be seen using Sublime text because the text editor automatically generates a closing HTML <strong>tag</strong>.</p>
+  </div>
+  </div>
+  <div class="chapter">
+  <div class="lesson">
+   <h2>Lesson 3: Using CSS to Add Design Styles</h2>
+  </div>
+  <div class="web">
+    <img class="web-image" src="http://i.imgur.com/tOVr0yL.jpg" alt="cat programmer">
+ </div>
+  <div class="concept">
+    <h3>CSS</h3>
+      <p>CSS stands for <em> Cascading Style Sheets </em>. CSS is used to add color, font, background, border, etc to your HTML design. </p>
+  </div>
+  <div class="concept">
+    <h3>Key Terms</h3>
+      <p> There are a few key terms to remember when writing HTML and CSS. 
+      <strong> Style</strong> can refer to a HTML element, HTML attribute, the general look of a page, or a verb. 
+      <strong> Rule</strong> is the line of CSS code describing the value a certain attribute takes. 
+      <strong> Property</strong> is the property you want to change. 
+      <strong> Value</strong> is the value you assign to the attribute. 
+      The <strong> selector</strong> is the name you use to target the element assigned to class in HTML.
+      <strong> Class </strong> is a group of elements styled together (no punctuation).
+      Finally, <strong> ID</strong> identifies an element in HTML.
+    </p>
+  </div>
+  <div class="concept">
+    <h3>Adding CSS to HTML</h3>
+      <p>There are a few options on how you can add CSS to your HTML, but the recommended option is to write a separate file using CSS and link it to your HTML file. 
+      Adding a link element inside the <em>head</em> of HTML using the <strong>link</strong> tag will link the separate CSS file to the HTML. The <strong>link</strong> tag is a <strong>void</strong> tag so you will not have a closing tag. 
+      Example: <em> link rel = "stylesheet" href "main.css" </em>.
+    </p>
+  </div>
+  <div class="concept">
+   <h3>Divs</h3>
+    <p> A div is a block element used to organize and separate HTML. You should use div as a opening and closing tag before and after block elements to help you visualize your blocks in HTML.
+    Since div is a block element by default it takes up the entire width of a page, so to override this you will add code to your CSS file that will allow you to arrange the boxes (divs) next to each other.
+    Example: <em> display: -flex; </em> in CSS will allow this.
+    </p>
+  </div>
+  <div class="concept">
+   <h3>Boxes and CSS</h3>
+    <p>All boxes must be sized so that they diplay properly in HTML. The size of an element = left border + left padding + content + right padding + right border.
+    Using this example: <em> box-sizing: border-box;</em> in CSS will make the box the same size, regardless of re-sizing the window. 
+    You can also set a <em> max width</em> for box sizes or set the box to a <em> percentage</em> of the window to allow conformity regardless of screen re-sizing.
+    </p>
+  </div>
+  <div class="concept">
+   <h3> Browser Specific Modifications in CSS</h3>
+    <p>
+      In order for your CSS elements to look the same in different browsers you should add these modifications to the code for box-sizing and flex. <strong> -ms, -webkit, -moz</strong>. 
+      An example: <em> display: -webkit-flex; display: flex;</em>.
+    </p>
+  </div>
+  <div class="concept">
+   <h3> Where to Start</h3>
+    <p>When you begin working on a new project there are 6 steps:
+      <ol>
+        <li>Look for boxes</li>
+        <li>Look for repeated styles and semantic elements</li>
+        <li>Write HTML</li>
+       <li>Apply Style - big to small</li>
+        <li>Fix things</li>
+        <li>Verify HTML & CSS
+        </li>
+      </ol>
+  </div>
+  </div>
+</body>
+</html>
+    
+    
+    
+    
+    
+  </body>
+</html>
