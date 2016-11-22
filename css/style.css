@@ -1,0 +1,57 @@
+body{
+	background-color: #2BAFE2;
+	padding: 20px 10px;
+	font-family: arial;
+	max-width: 2000px;
+	margin: 0 auto;
+	font-size: 1.4em;
+	}
+.chapter{
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+  
+.title	{
+	text-align: center;
+	background-color: whitesmoke;
+	border-style: dashed;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px auto;
+	color: grey;
+}
+p{
+	margin: 10px 0;
+}
+.lesson{
+	text-align: center;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px auto;
+	color: grey;
+
+}
+.concept{
+	background-color: #90BFD6;
+	font-size: 20px;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.web-image{
+	height: 300px;
+	border-radius: 450px;
+	max-width: 90%;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+	
+.web{
+	text-align: center;
+}
+	
