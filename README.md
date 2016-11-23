@@ -4,7 +4,7 @@ This my first web site site I created for Udacity's Intro to programming nanodeg
 
 ## Deployment
 
-Open [Megan's First Website](http://megdollar.github.io/My-First-Website)
+Open [Megan's First Website](http://megdollar.github.io/My-First-Website) to view the website.
 
 ## Built With
 
